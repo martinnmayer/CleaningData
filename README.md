@@ -6,4 +6,4 @@ The full description of the original database is made available at: http://archi
 The raw database can be downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The processing script (run_analisys.R) selects only the mean and standar deviation variables. The end result is a data frame describing the selected variables mean for each subject and activity (30 subjects, 6 activities = 180 rows)
+The processing script (run_analisys.R) selects only the mean and standar deviation variables. A listing and description of the considered variables is available in Features.md The end result is a data frame describing the selected variables mean for each subject and activity (30 subjects, 6 activities = 180 rows)
