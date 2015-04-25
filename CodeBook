@@ -1,0 +1,66 @@
+Getting and Cleaning Data Course Project
+
+CodeBook
+--------
+Subject and activity:
+--------------------
+Subject: 30 subjects
+Activities:
+    walk: walking
+    walkup: walking upstairs
+    walkdown: walking downstairs
+    sit: sitting
+    stand: standing
+    lay: laying
+subjactivity:
+    Combination of subject and activity (for example subject "3", activity "walking downstairs"
+
+Variables:
+----------
+Fourty variables where selected from the original raw data, each one consisting of a mean or standard deviation.
+The prefix "t" denotes time domain signals, whilst "f" stands for frequency domain signals. "x","y" and "z"
+denote 3 axis signals in the x, y and z directions. Jerk stands for "Jerk" signals. Acceleration signals were separated
+into body and gravity acceleration. Of course, "std" stands for standard deviation and "mean" stands for mean.
+
+The full list of variables is as follows:
+
+tbodyaccstdx          
+tbodyaccstdy
+tbodyaccstdz
+tgravityaccstdx
+tgravityaccstdy
+tgravityaccstdz
+tbodyaccjerkstdx
+tbodyaccjerkstdy
+tbodyaccjerkstdz
+tbodygyrostdx
+tbodygyrostdy
+tbodygyrostdz
+tbodygyrojerkstdx
+tbodygyrojerkstdy
+tbodygyrojerkstdz
+tbodyaccmagstd
+tgravityaccmagstd
+tbodyaccjerkmagstd
+tbodygyromagstd
+tbodygyrojerkmagstd
+fbodyaccstdx
+fbodyaccstdy
+fbodyaccstdz
+fbodyaccjerkstdx
+fbodyaccjerkstdy
+fbodyaccjerkstdz
+fbodygyrostdx
+fbodygyrostdy
+fbodygyrostdz
+fbodyaccmagstd
+fbodybodyaccjerkmagstd
+fbodybodygyromagstd
+fbodybodygyrojerkmagstd
+angletbodyaccmeangravity
+angletbodyaccjerkmeangravitymean
+angletbodygyromeangravitymean
+angletbodygyrojerkmeangravitymean
+anglexgravitymean
+angleygravitymean
+anglezgravitymean
